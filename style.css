@@ -6,7 +6,7 @@ body{
 }
 .back1{
     background-color: #1f2937;
-    padding: 0px 64px 32px 64px;
+    padding: 0px 128px 32px 128px;
 }
 
 .header{
@@ -14,6 +14,7 @@ body{
     justify-content: space-between;
     font: 24px;
     color: #f9faf8;
+
 }
 .smolheader{
     display: flex;
@@ -32,13 +33,15 @@ body{
 .description{
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 128px;
 }
 .text{
-    max-width: 400px;
+    max-width: 600px;
 }
 img{
-    max-height: 150px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: 12px;
 }
 
 button{
@@ -55,7 +58,7 @@ p{
 .back2{
     display: flex;
     min-height: 100px;
-    padding: 12px 64px 32px 64px;
+    padding: 12px 128px 32px 128px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -94,7 +97,7 @@ p{
 .back3{
     display: flex;
     background-color: #e5e7eb;
-    padding: 12px 64px 4px 64px;
+    padding: 12px 128px 4px 128px;
     margin-bottom: auto;
     flex-grow: 1;
     min-height: 150px;
@@ -107,15 +110,16 @@ p{
     padding-top: 12px;
     display: flex;
     flex-grow: 1;
-    font: 36px bold;
+    font: 28px bold;
     font-style: italic;
     color: #1f2937;
     justify-content: center;
     flex-direction: column;
 }
 .monk{
+    margin-top: 12px;
     display: flex;
-    font: 24px bold;
+    font: 16px bold;
     align-items: flex-end;
     justify-content: flex-end;
     padding-right: 12px;
@@ -132,7 +136,7 @@ p{
 .footer{
     display: flex;
     padding: 0px;
-    min-height: 80px;
+    min-height: 50px;
     color: #f9faf8;
     background-color: #1f2937;
     justify-content: center;
